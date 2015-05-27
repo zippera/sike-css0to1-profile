@@ -1,3 +1,10 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 body{
     background: url("../img/bg5.jpg");
     background-attachment: fixed;
@@ -134,4 +141,27 @@ h1, h2, h3, h4, h5, h6{
     content: '';
     clear: both;
     display: table;
+}
+
+.education-experience__list img{
+    width: 180px;
+    float: left;
+    margin-right: 20px;
+}
+.right-intro{
+    overflow: hidden;
+}
+
+.education-experience__list li{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.photos__list li{
+    float: left;
+    width: 25%;
+}
+.photos__list img{
+    padding: 10px;
+    width: 100%;
 }
